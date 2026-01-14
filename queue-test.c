@@ -21,6 +21,8 @@ Where Queues Are Used (Real Systems)
 
 🔥🔥Embedded Rule of Thumb🔥🔥
 Use queues for data flow, stacks for control flow
+One-line rule (remember forever)
+front points to next OUT, rear points to next IN, count tells how many.
 */
 #include <stdio.h>
 #include "queue.h"
